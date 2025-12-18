@@ -9,8 +9,12 @@
 
 Dataset: Facebook Ads Dataset (Kaggle) https://www.kaggle.com/datasets/madislemsalu/facebook-ad-campaign
 
+--
+
 Dataset Overview:
 <img width="626" height="510" alt="image" src="https://github.com/user-attachments/assets/23ff9b5b-20d4-4c11-977d-d6566b88dfbc" />
+
+--
 
 Feature Description:
 <img width="674" height="536" alt="image" src="https://github.com/user-attachments/assets/3dcdfa38-cbb2-4883-8c4c-97c45f282758" />
