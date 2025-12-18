@@ -178,10 +178,15 @@ https://scikit-learn.org/stable/
 
 ## Tools Used
 ●	Python – Primary programming language used for data preprocessing, analysis, and modeling
+
 ●	Jupyter Notebook – Interactive environment for code development and reproducibility
+
 ●	Pandas – Data manipulation, cleaning, and feature engineering
+
 ●	NumPy – Numerical computing and array operations
+
 ●	Matplotlib & Seaborn – Data visualization for EDA and result interpretation
+
 ●	scikit-learn – Implementation of machine learning algorithms (K-Means, PCA, Random Forest, Gradient Boosting), preprocessing, and evaluation metrics
 
 
