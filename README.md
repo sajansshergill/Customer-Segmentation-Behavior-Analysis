@@ -20,25 +20,33 @@ Feature Description:
 ## Data Preprocessing Details:
 <img width="858" height="356" alt="image" src="https://github.com/user-attachments/assets/8e7d2879-ce0d-46ec-8c3c-ee0201af217b" />
 
-Handling Missing Values:
+- Handling Missing Values:
 Only the conversion-related variables (total_conversion and approved_conversion) had missing values. The median, a reliable metric appropriate for skewed distributions, was used to impute these missing observations. The dataset had no missing values after imputation.
 
-Removing or Correcting Outliers:
+- Removing or Correcting Outliers:
 Box plots were used to identify and quantify outliers in numerical variables (interest1, interest2, interest3, impressions, clicks, spent, and conversion metrics) using the Interquartile Range (IQR) method. To lessen the impact of extreme values while maintaining overall data integrity, values outside of Q1 − 1.5×IQR and Q3 + 1.5×IQR were capped to the corresponding bounds.
 
-Normalization / Standardization:
+- Normalization / Standardization:
 All numerical variables were standardized using z-score z-score normalization via StandardScaler to guarantee comparability across features and enhance model performance. This made the data appropriate for dimensionality reduction and distance-based algorithms by transforming each feature to have a mean of zero and a standard deviation of one.
 
-Feature Selection and Feature Engineering:
+- Feature Selection and Feature Engineering:
 Date variables were converted to datetime format, and a new feature representing campaign duration was engineered. Identifier columns (ad_id, campaign_id, fb_campaign_id) were removed as they do not provide predictive value. Categorical variables (age and gender) were transformed using one-hot encoding with drop_first=True to avoid multicollinearity, resulting in a structured feature set appropriate for modeling.
 
 <img width="429" height="247" alt="image" src="https://github.com/user-attachments/assets/09bba460-d8fd-4fda-9378-afd10db7268e" />
 
+---
+
 <img width="468" height="185" alt="image" src="https://github.com/user-attachments/assets/d848e390-3f70-4965-9bb4-02ea14e18661" />
+
+---
 
 <img width="468" height="185" alt="image" src="https://github.com/user-attachments/assets/74ed1e27-8902-416a-a86c-c7d8432f9d4e" />
 
+---
+
 <img width="440" height="326" alt="image" src="https://github.com/user-attachments/assets/312af6a5-2288-4f18-adb1-6ea56aa2cafd" />
+
+---
 
 <img width="474" height="286" alt="image" src="https://github.com/user-attachments/assets/955c044b-005e-4aec-b6ad-7bc6b2dd32d2" />
 
