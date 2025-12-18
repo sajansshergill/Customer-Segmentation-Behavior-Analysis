@@ -12,11 +12,13 @@ Dataset: Facebook Ads Dataset (Kaggle) https://www.kaggle.com/datasets/madislems
 --
 
 Dataset Overview:
+
 <img width="626" height="510" alt="image" src="https://github.com/user-attachments/assets/23ff9b5b-20d4-4c11-977d-d6566b88dfbc" />
 
 --
 
 Feature Description:
+
 <img width="674" height="536" alt="image" src="https://github.com/user-attachments/assets/3dcdfa38-cbb2-4883-8c4c-97c45f282758" />
 
 ---
@@ -38,23 +40,23 @@ Date variables were converted to datetime format, and a new feature representing
 
 <img width="429" height="247" alt="image" src="https://github.com/user-attachments/assets/09bba460-d8fd-4fda-9378-afd10db7268e" />
 
----
+--
 
 <img width="468" height="185" alt="image" src="https://github.com/user-attachments/assets/d848e390-3f70-4965-9bb4-02ea14e18661" />
 
----
+--
 
 <img width="468" height="185" alt="image" src="https://github.com/user-attachments/assets/74ed1e27-8902-416a-a86c-c7d8432f9d4e" />
 
----
+--
 
 <img width="440" height="326" alt="image" src="https://github.com/user-attachments/assets/312af6a5-2288-4f18-adb1-6ea56aa2cafd" />
 
----
+--
 
 <img width="474" height="286" alt="image" src="https://github.com/user-attachments/assets/955c044b-005e-4aec-b6ad-7bc6b2dd32d2" />
 
----
+--
 
 ## Exploratory Analysis Findings:
 
@@ -66,6 +68,8 @@ Strong positive correlations between impressions, clicks, and spend were reveale
 Analysis of categorical variables identified initial data quality issues in the age and gender fields, which were corrected by filtering invalid values. After cleaning, the 30–34 age group and male users were the most represented. Engagement metrics such as clicks and spend varied across age groups and genders, with higher values observed among certain demographics, while approved conversion rates remained relatively consistent, indicating that demographic effects are stronger in early engagement stages than in final conversion outcomes.
 
 Finally, unsupervised clustering revealed distinct advertisement segments, confirming the presence of meaningful structure within the data. These findings directly informed feature selection, preprocessing decisions, and the choice of modeling techniques applied in later stages of the analysis.
+
+--
 
 <img width="468" height="389" alt="image" src="https://github.com/user-attachments/assets/278f9164-b3af-460c-b686-66e7d475d451" />
 
